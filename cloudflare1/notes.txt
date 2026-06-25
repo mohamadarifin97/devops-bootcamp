@@ -1,0 +1,10 @@
+1. dua nameserver Cloudflare
+    - kayleigh.ns.cloudflare.com
+    - terry.ns.cloudflare.com
+
+2. URL pages.dev portfolio awam dari GitHub + custom domain
+    - https://mohamadarifin.pages.dev/
+    - www.sendiri.asia
+
+3. URL private-site custom subdomain
+    - arifin.sendiri.asia
