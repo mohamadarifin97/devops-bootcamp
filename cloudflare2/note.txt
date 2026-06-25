@@ -1,0 +1,7 @@
+today learning
+- install nginx on ec2
+- add subdomain for the ec2
+- nonproxy cloudflare -> show ec2 elastic ip
+- proxy cloudflare -> show cloudflare ip
+- use flexible cloudflare ssl
+- use cloudflare tunnel to forward private subnet to internet
