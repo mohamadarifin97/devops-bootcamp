@@ -1,0 +1,13 @@
+Docker version 29.6.1, build 8900f1d
+IMAGE                   ID             DISK USAGE   CONTENT SIZE   EXTRA
+alpine:latest           1991bd789d71       8.66MB             0B        
+hello-world:latest      eb84fdc6f2a3        5.2kB             0B        
+infratify/card:latest   735347b6b46d       53.4MB             0B        
+infratify/web:v1        69d249e563c7       61.6MB             0B   U    
+nginx:alpine            92271ec46f10       61.6MB             0B        
+nginx:latest            b69ff87d4106        181MB             0B        
+single-stage:v1         a3880dc4a1a1       1.37GB             0B        
+web:latest              69d249e563c7       61.6MB             0B   U    
+web:v1                  69d249e563c7       61.6MB             0B   U    
+CONTAINER ID   IMAGE     COMMAND                  CREATED       STATUS                           PORTS     NAMES
+2ca8178e27b3   web:v1    "/docker-entrypoint.…"   2 hours ago   Exited (137) About an hour ago             web
