@@ -1,0 +1,12 @@
+alamat ECR: 013141018408.dkr.ecr.ap-southeast-1.amazonaws.com/devops-bootcamp/arifin
+
+volume:
+DRIVER    VOLUME NAME
+local     me
+
+network: 
+NETWORK ID     NAME      DRIVER    SCOPE
+a1b435d3bdc0   arena     bridge    local
+d7713c41c291   bridge    bridge    local
+15f249077a67   host      host      local
+e270eb5c4235   none      null      local
