@@ -1,0 +1,3 @@
+- describe how fiel compose replace manually docker run command
+- update file compose and run with docker compose up
+- summarize workflow docker and its relation to devops tasking

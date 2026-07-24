@@ -1,0 +1,3 @@
+- add cicd component to prevent error on code
+- prove error is prevented from reaching production
+- organize cicd component to upgrade automation

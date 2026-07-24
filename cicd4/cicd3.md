@@ -1,0 +1,3 @@
+- push and pull docker image using ECR registry
+- save data permenantly using docker volume
+- connect container in same network using docker network
