@@ -1,0 +1,3 @@
+- introduction to cicd
+- write first workflow github actions then trigger by push
+- deploy pages to github pages automatically for every push

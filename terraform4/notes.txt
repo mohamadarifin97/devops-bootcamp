@@ -1,0 +1,32 @@
+
+=== SEMAKAN REGISTRY ===
+
+1. hashicorp/aws provider
+   - Kod  : ~> 6.0 (locked 6.58.0)
+   - Registry latest: 6.58.0
+   - Status: TERKINI
+
+2. terraform-aws-modules/vpc/aws
+   - Kod  : ~> 6.0
+   - Registry latest: 6.6.1
+   - Status: COMPATIBLE
+
+3. terraform-aws-modules/ec2-instance/aws
+   - Kod  : ~> 6.0
+   - Registry latest: 6.4.0
+   - Status: COMPATIBLE
+
+4. terraform-aws-modules/security-group/aws
+   - Kod  : ~> 6.0
+   - Registry latest: 6.0.0
+   - Status: COMPATIBLE
+
+
+=== PERLU DIUBAH ===
+
+providers.tf line 2: required_version = ">= 1.15"
+
+MASALAH: Terraform versi 1.15 BELUM WUJUD. Versi terkini hanya ~1.11.x/1.12.x.
+         Ini akan menyebabkan ralat semasa terraform init.
+
+CADANGAN: Tukar kepada ">= 1.5" atau ">= 1.0"
